@@ -1,6 +1,8 @@
 import random
 
 again = 'OK'
+
+
 def is_valid(x):
     if x.isdigit() and 1 <= int(x) <= 100:
         while number != x:
@@ -18,8 +20,11 @@ def is_valid(x):
         return 'Поехали дальше...'
     else:
         return 'Cпасибо за игру!!'
+
+
 while again == 'OK':
     number = random.randint(1, 100)
     num = input('Введите целое число от 1 до 100...')
     print(is_valid(num))
+    
 
