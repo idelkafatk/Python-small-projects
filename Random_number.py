@@ -26,5 +26,5 @@ while again == 'OK':
     number = random.randint(1, 100)
     num = input('Введите целое число от 1 до 100...')
     print(is_valid(num))
-    
+
 
